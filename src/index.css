@@ -1,0 +1,96 @@
+/* ตั้งค่าให้ตัวอักษรใน .App อยู่ตรงกลาง */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* กำหนดสไตล์ให้กับฟอร์มที่มีการกรอกข้อมูล */
+input {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ปุ่ม Submit ให้มีสีสันและการจัดตำแหน่ง */
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* ตั้งค่าสำหรับผลลัพธ์ที่แสดงในหน้าจอ */
+pre {
+  font-size: 18px;
+  white-space: pre-wrap; /* รองรับการแสดงผลหลายบรรทัด */
+  word-wrap: break-word;
+  color: #333;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/* ส่วนหัวข้อให้ดูเด่น */
+h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* ผลลัพธ์ที่แสดงภายใต้คำว่า "Results:" */
+h3 {
+  color: #333;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/* ส่วนของ logo */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
